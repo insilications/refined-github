@@ -86,6 +86,11 @@ async function add(branchSelector: HTMLElement): Promise<void> {
 async function init(signal: AbortSignal): Promise<void> {
 	await expectToken();
 	observe(branchSelector, add, {signal});
+	document.addEventListener('keydown', async event => {
+		if (event.altKey && event.code === 'KeyR') {
+			location.href = await getUrl(location.href);
+		}
+	}, {signal});
 }
 
 void features.add(import.meta.url, {

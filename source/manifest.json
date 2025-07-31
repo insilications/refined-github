@@ -17,6 +17,7 @@
 		}
 	},
 	"permissions": [
+		"unlimitedStorage",
 		"storage",
 		"scripting",
 		"contextMenus",

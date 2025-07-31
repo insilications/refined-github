@@ -186,3 +186,20 @@ div[data-target='readme-toc.content'] div.blob-wrapper img {
 .ActionListItem .ActionListItem-label--truncate {
 	white-space: unset !important;
 }
+
+.container-xl {
+	max-width: 100% !important;
+}
+
+.ThreePanesLayout-module__ThreePanesLayoutMiddleOnlyPane--OBqSv {
+	max-width: 100% !important;
+}
+
+.ContentWrapper-module__contentContainer--UBLwW {
+	max-width: 100% !important;
+}
+
+#gist-pjax-container .container-lg {
+	width: 100% !important;
+	max-width: 100% !important;
+}
